@@ -9,9 +9,9 @@ Overview
 Contents
 ~~~~~~~~
 
-- :ref:`fredcodes`
-- :ref:`fredhelpers`
-- :ref:`fredutilities`
+- :ref:`fred.codes`
+- :ref:`fred.helpers`
+- :ref:`fred.utilities`
 
 About
 ~~~~~
@@ -19,12 +19,12 @@ About
 .. automodule:: fecon236.host.fred
 
 
-.. _fredcodes:
+.. _fred.codes:
 
 FRED Series Codes
 -----------------
 
-.. _fredcodes.libor:
+.. _fred.codes.libor:
 
 LIBOR
 ~~~~~
@@ -58,7 +58,7 @@ LIBOR
 **Period: 1986-present**
 
 
-.. _fredcodes.fedfunds:
+.. _fred.codes.fedfunds:
 
 Federal Funds Rate
 ~~~~~~~~~~~~~~~~~~
@@ -72,7 +72,7 @@ Effective Federal Funds Rate, Daily since 1954
 
 **Period: 1954-present**
 
-.. _fredcodes.treasurybills:
+.. _fred.codes.treasurybills:
 
 Treasury Bills
 ~~~~~~~~~~~~~~
@@ -87,7 +87,7 @@ Treasury Bills
 **Period: 1954-present**
 
 
-.. _fredhelpers:
+.. _fred.helpers:
 
 FRED Helper Codes
 -----------------
@@ -101,7 +101,7 @@ FRED helper codes can be obtained from ``fecon236.host.fred``:
     getfred(d4ff30)
 
 
-.. _fredhelpers.fedfunds:
+.. fred.helpers.fedfunds:
 
 Federal Funds Rate
 ~~~~~~~~~~~~~~~~~~
@@ -112,12 +112,12 @@ Federal Funds Rate
 Synthetic Federal Funds Rate, using the 30-day exponential moving average.
 
 
-.. _fredutilities:
+.. _fred.utilities:
 
 FRED Utilities
 --------------
 
-.. _fredutilities.resampling:
+.. _fred.utilities.resampling:
 
 Resampling
 ~~~~~~~~~~
@@ -138,14 +138,14 @@ Quarterly
 .. autofunction:: fecon236.host.fred.quarterly
 
 
-.. _fredutilities.indexing:
+.. _fred.utilities.indexing:
 
 Indexing
 ~~~~~~~~
 
 .. autofunction:: fecon236.host.fred.index_delta_secs
 
-.. _fredutilities.io:
+.. _fred.utilities.io:
 
 I/O
 ~~~
