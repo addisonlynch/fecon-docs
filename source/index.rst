@@ -15,16 +15,31 @@ Contents
 
 .. toctree::
    :maxdepth: 1
-   :caption: utilities
+   :caption: Data Sources
 
-   utilities.rst
    fred.rst
    quandl.rst
    stock.rst
 
 .. toctree::
    :maxdepth: 1
-   :caption: notebooks
+   :caption: Notebooks
 
    bootstrap.rst
    gaussmix.rst
+   infl.rst
+   cftc.rst
+   learn.rst
+   optimize.rst
+   sim.rst
+   boltzmann.rst
+   credit.rst
+   fedfunds.rst
+   holtwinters.rst
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Utilities
+
+   matrix.rst
+   utilities.rst

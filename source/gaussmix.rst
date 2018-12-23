@@ -9,3 +9,6 @@ Overview
 --------
 
 .. automodule:: fecon236.dst.gaussmix
+
+
+.. autofunction:: fecon236.dst.gaussmix.gm2_vols

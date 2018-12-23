@@ -134,6 +134,8 @@ latex_documents = [
      'Addison Lynch', 'manual'),
 ]
 
+# Set command name to invoke LaTeX
+
 
 # -- Options for manual page output ------------------------------------------
 
