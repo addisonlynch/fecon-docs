@@ -21,3 +21,7 @@ help:
 
 livehtml:
 	sphinx-autobuild source build --host 127.0.0.1 -p 8999
+
+spelling:
+	@$(SPHINXBUILD) -b spelling -d "$(BUILDDIR)/doctrees" source \
+	"$(BUILDDIR)/spelling"
