@@ -7,7 +7,7 @@ python:
 
 env:
   global:
-    # Doctr deploy key for addisonlynch/fecon-docs
+    # Doctr deploy key for addisonlynch/iexfinance
     - secure: "ClneoE3eYMMdvnr5OjjJACOXjk2FomMo5yRXlL+oi6KpGUdqlTUtw1EB2yEi1u/5G31aUREx0lxChlT0tBKaDwk9bQENNSeoEWSB/SU8+/5/ZOr2QnS4MUiXrF/Qs3j/YOADHThdXSK4WFQuzWgtcti1dPvW1zVjiIw5WcgCMXXWCXXUDZD8X+vBxZwlY4w7OIofShXtAvmRPPII/o+QZwWZ4TO4rrLpIiZ+PvcdFnMXJrOvj0KA7y9HfxdS16APJzNcHRHOG4taqYo9XSa13txZlLq0HQyMxwlm1yMbiqMrNyIkZDaOS33ShjuKrXxXN2y68uKBgxKu6Lb2GWXquPftEc04ARJzsQVoGa08i8yRhb99gmRI3YkwvwA4c+ygFC/2JhhxPA/KYGS3VnSgOQYa+SPmqbFccY1LvDa1f+CeB8qsJfYRTI6WfTDNFinBKvPCVXg0B1vtXNdBBhFAg4Ew7Mzc4IO/XJIyLWEflq9jOoVHRilOOwh5OTLTzioFb7Vu+JPYk7VqgoqvBAanjWIwMV47HvayZuYovBDKQkUCYmE/HXrepePeHzZCpxrmzeVWfBP9uCIcA6sC8X9W4KlSuSq+Fp2Xje6iZ7bT//3HJ6UpoLMBhIXVdqs1j/n8ofZ85GDv0Fkltc81Viom4RLyRDtGFhfs/QjizY8hxbY="
 
 
@@ -24,7 +24,7 @@ script:
   - flake8-rst source
 
 after_success:
-  -
+  - |
     make html && make html
     doctr deploy devel --build-tags
     if [[ -z ${TRAVIS_TAG} ]]; then
