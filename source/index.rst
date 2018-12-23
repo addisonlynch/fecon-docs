@@ -10,36 +10,25 @@ Contents
    :caption: Overview
 
    overview.rst
-   gettingstarted.rst
    faq.rst
 
 .. toctree::
    :maxdepth: 1
    :caption: Data Sources
+   :glob:
 
-   fred.rst
-   quandl.rst
-   stock.rst
+   host/*
 
 .. toctree::
    :maxdepth: 1
    :caption: Notebooks
+   :glob:
 
-   bootstrap.rst
-   gaussmix.rst
-   infl.rst
-   cftc.rst
-   learn.rst
-   optimize.rst
-   sim.rst
-   boltzmann.rst
-   credit.rst
-   fedfunds.rst
-   holtwinters.rst
+   notebooks/*
 
 .. toctree::
    :maxdepth: 1
    :caption: Utilities
+   :glob:
 
-   matrix.rst
-   utilities.rst
+   utilities/*
