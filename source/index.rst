@@ -1,6 +1,7 @@
 Welcome to fecon's Documentation
 ================================
 
+.. include:: ../../README.rst
 
 Contents
 --------
